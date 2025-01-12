@@ -9,7 +9,7 @@ import Comment from './Modals/comments.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/loginadmin" element={<LoginAdmin />} />
@@ -17,7 +17,7 @@ function App() {
         <Route path="/home" element={<Home/>} />
         <Route path="/comments" element={<Comment/>} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
